@@ -92,3 +92,15 @@ font-size: 20px;
 .profiel p {
     margin-top: -20px;
 }
+.Fotos img {
+    border-radius: 2%;
+    width: 500px;
+    padding: 10px;
+
+}
+.Fotos1 img {
+    border-radius: 2%;
+    width: 500px;
+    padding: 10px;
+
+}
