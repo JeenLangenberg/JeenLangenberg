@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 * {
-    font-family: "Bebas", sans-serif;
+/* dit word overal toegepast */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 
 }
+/*   */
     li, a {
     font-weight: 500;
     font-size: 25px;
@@ -49,15 +50,18 @@ nav ul{
     }
 
 nav li {
-    padding: 15px 50px;
+    margin: 0 100px;
     list-style: none;
-
+    color: #ffffff;
+   
     }
 nav li a:hover{
-    text-shadow: -3px 2px rgb(247, 10, 10);
+    text-shadow: -3px 2px rgb(255, 0, 0);
+    color: #000000;
+
     }
 .texten {
-    color: #ffffff;
+
      width: 20%;
      margin: 50px 0 0 50px;
     }
@@ -77,7 +81,7 @@ font-size: 20px;
 .Profiel img {
     width: 280px;
     margin: 40px;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 .Profiel h1, p{
     font-size: 25px;
@@ -92,15 +96,34 @@ font-size: 20px;
 .profiel p {
     margin-top: -20px;
 }
-.Fotos img {
-    border-radius: 2%;
-    width: 500px;
-    padding: 10px;
 
+.Avonden h1{
+    color: #ffffff;
+    padding: 20px 300px;
+    font-size: 300%;
 }
-.Fotos1 img {
-    border-radius: 2%;
+.Fotos{
+    margin: 10px 0 0 100px;
+    width: 250px;
+    border-radius: 5%;
+}
+.Fotos1{
+    margin: 10px 0 0 300px;
     width: 500px;
-    padding: 10px;
-
+    border-radius: 5%;
+}
+.Fotos2{
+    margin: 10px 0 0 300px;
+    width: 500px;
+    border-radius: 5%;
+}
+.Fotos3{
+    margin: 10px 0 0 300px;
+    width: 500px;
+    border-radius: 5%;
+}
+.logo1{
+    margin: 10px 0 0 300px;
+    width: 500px;
+    border-radius: 5%;
 }
